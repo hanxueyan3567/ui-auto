@@ -85,6 +85,7 @@ if __name__ == '__main__':
     pass_el.send_keys('123456')
     time.sleep(3)
 
+
     #定位超链接
     #全名 访问
     driver.find_element_by_link_text('当当').click()
